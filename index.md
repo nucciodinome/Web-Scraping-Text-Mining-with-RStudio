@@ -6,7 +6,7 @@ You can use the both your local R Studio or an [R Studio Cloud Project](https://
 
 ## Web Scraping
 Let’s start by finding the Excel file of your group. 
-group_blue.xlsx
+https://github.com/nucciodinome/Web-Scraping-Text-Mining-with-RStudio/group_green.xlsx
 
 Now, you can open R Studio and import the file.
 
