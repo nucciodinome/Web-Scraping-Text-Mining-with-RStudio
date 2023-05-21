@@ -19,9 +19,7 @@ Now, you can open R Studio and import the file.
 As you can see, the dataset is a list of URLs, named SEED, which refer to the websites of 50 members of Wind Energy Europe.
 
 Given RQ, you should first identify what data you need to track relationships between organizations.
-
 As we know, information about the relationships between two websites is encoded as hyperlinks, which, in the HTML language are reported with the "a" tag, while the target URL of the link is made explicit with the "href" attribute.
-
 We can assume, moreover, that not all website links are on the homepage: many of them will be found on the internal pages of the website (e.g., "about" page, "partners" page, "clients" page, etc.).
 
 Let's assume, then, that we also want to investigate the internal pages which are directly linked to the homepage, or, in other words, at 1 degree of separation from the homepage (let's call them second-level web pages).
@@ -30,13 +28,16 @@ We can then start to build our procedure aimed at extracting the data we need an
 
 Probably, your procedure will look like this:
 
-
 - [x] Starting from the list of 50 SEEDs...
 - [ ] __STEP I__: Extract all the _Second Level web pages_ in order to...
 - [ ] __STEP II__: Collect all _external links_ (which refer to other organizations' websites connected to the SEEDs
 
 
 ### Import R packages
+*N.b. The "X" in red, are the fields you need to fill in.*
+
+Having the SEEDs it should be easy to extract all the internal links which refer to second level web pages.
+Let's try the R package "Rvest." (and some other additional packages)
 
 ```markdown
 
@@ -53,7 +54,10 @@ library(dplyr)
 ```
 
 
-## Web Driver Settings
+### STEP Ia: Extract Second Level web pages
+N.b. The "X" in red, are the fields you need to fill in.
+Having the SEEDs it should be easy to extract all the internal links which refer to second level web pages.ù
+
 
 ```markdown
 
