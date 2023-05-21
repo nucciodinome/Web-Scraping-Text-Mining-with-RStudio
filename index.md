@@ -1,4 +1,4 @@
-# Web Scraping with R Studio: A gentle introduction
+# Scraping the Web with R
 
 **Welcome to this short tutorial on Web Scraping!**
 
