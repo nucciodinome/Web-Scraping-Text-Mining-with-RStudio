@@ -1,13 +1,16 @@
-# Web Scraping and Data Mining: A gentle introduction
+# Web Scraping with R Studio: A gentle introduction
 
-**Welcome to this short tutorial on Web Scraping and Data Mining techniques!**
+**Welcome to this short tutorial on Web Scraping!**
 
-You can use the [Google Cloud Python Platform](https://colab.research.google.com/) to start you scraping project
-
-Your[Python script](https://colab.research.google.com/drive/14c_iDdptsMWkZIQl7-89DtHeCuK1Et5b?usp=sharing)
+You can use the both your local R Studio or an [R Studio Cloud Project](https://posit.cloud/) to start your scraping task!
 
 ### Web Scraping
-Open a new notebook in Colab!
+Let’s start by finding the Excel file of your group. 
+
+Now, you can open R Studio and import the file.
+
+As you can see, the dataset is a list of URLs, named SEED, which refer to the websites of 50 members of Wind Energy Europe.
+
 
 ## Data Source
 Open a new webpage and go to [WSJ](https://www.wsj.com/search?query=energy&mod=searchresults_viewallresults)  to inspect data to scrape
