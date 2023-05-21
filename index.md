@@ -4,8 +4,9 @@
 
 You can use the both your local R Studio or an [R Studio Cloud Project](https://posit.cloud/) to start your scraping task!
 
-### Web Scraping
+## Web Scraping
 Let’s start by finding the Excel file of your group. 
+group_blue.xlsx
 
 Now, you can open R Studio and import the file.
 
