@@ -1,1 +1,6 @@
 theme: jekyll-theme-leap-day
+
+nav_external_links:
+  - title: Text Mining
+    url: https://github.com/nucciodinome/Web-Scraping-Text-Mining-with-RStudio/text-mining
+    hide_icon: false # set to true to hide the external link icon - defaults to false
